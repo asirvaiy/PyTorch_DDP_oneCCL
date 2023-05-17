@@ -5,12 +5,12 @@ You need to git clone the repo using :
 ```
 git clone https://github.com/oneapi-src/oneAPI-samples.git
 ```
-After having the repo locally, you should see "oneAPI-samples" directory. Navigate to "oneAPI-samples/AI-and-Analytics/Features-and-Functionality/"
+After having the repo locally, you should see "oneAPI-samples" directory. Navigate to **"oneAPI-samples/AI-and-Analytics/Features-and-Functionality/"**
 
 
- For IntelR) Extension for PyTorch lab sample, open IntelPyTorch_Extensions_Inference_Optimization/optimize_pytorch_models_with_ipex.ipynb
- Select the kernal "PyTorch" if not auto-selected. Now you are ready to run all the cells one by one.
- 
+ For IntelR) Extension for PyTorch lab sample, open **IntelPyTorch_Extensions_Inference_Optimization/optimize_pytorch_models_with_ipex.ipynb** <br>
+ Select the kernel "PyTorch" if not auto-selected. Now you are ready to run all the cells one by one.
+
  
 ## PyTorch DDP with oneCCL sample
 1. After downloading the repo. Change the file permission for execution using: 
