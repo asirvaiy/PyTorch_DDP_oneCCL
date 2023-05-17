@@ -93,6 +93,10 @@ if __name__ == "__main__":
         os.environ['WORLD_SIZE'] = str(os.environ.get('WORLD_SIZE', 1))
     os.environ['MASTER_ADDR'] = '127.0.0.1'  # your master address
     os.environ['MASTER_PORT'] = '29500'  # your master port
+      
+    print("World_size or number of Processes", os.environ['WORLD_SIZE'])
+    print("Rank of the Process", os.environ['RANK'])  
+      
     # Initialize the process group with ccl backend
     dist.init_process_group(backend='ccl')
     
